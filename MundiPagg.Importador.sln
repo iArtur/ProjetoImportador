@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiPagg.Importador.WebApp", "MundiPagg.Importador.WebApp\MundiPagg.Importador.WebApp.csproj", "{1830B5FE-3FF9-4665-B93D-3F975800E144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiPagg.Importador.WebApi", "MundiPagg.Importador.WebApi\MundiPagg.Importador.WebApi.csproj", "{7C8A420A-F764-4D2F-9303-D6E7D2C375CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Infra", "1 - Infra", "{C3A1D72A-D3FA-4FDA-B240-BE6D97E861E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{2E7358D3-B176-4A91-9A4B-8705624A0AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Tests", "2 - Tests", "{55B8865D-51AF-461E-A74F-6501111B2DC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiPagg.Importador.Core", "MundiPagg.Importador.Core\MundiPagg.Importador.Core.csproj", "{60BB64D2-BEE2-437D-9A63-A1234B4FD716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEncript", "testEncript\testEncript.csproj", "{E8626D5A-A142-4854-B208-1A8D1391BBE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiPagg.Importador.Tests", "MundiPagg.Importador.Tests\MundiPagg.Importador.Tests.csproj", "{6A5653DA-B94A-4ACD-994F-053FA004DD85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1830B5FE-3FF9-4665-B93D-3F975800E144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1830B5FE-3FF9-4665-B93D-3F975800E144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1830B5FE-3FF9-4665-B93D-3F975800E144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1830B5FE-3FF9-4665-B93D-3F975800E144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8A420A-F764-4D2F-9303-D6E7D2C375CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8A420A-F764-4D2F-9303-D6E7D2C375CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8A420A-F764-4D2F-9303-D6E7D2C375CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8A420A-F764-4D2F-9303-D6E7D2C375CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BB64D2-BEE2-437D-9A63-A1234B4FD716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BB64D2-BEE2-437D-9A63-A1234B4FD716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BB64D2-BEE2-437D-9A63-A1234B4FD716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BB64D2-BEE2-437D-9A63-A1234B4FD716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8626D5A-A142-4854-B208-1A8D1391BBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8626D5A-A142-4854-B208-1A8D1391BBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8626D5A-A142-4854-B208-1A8D1391BBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8626D5A-A142-4854-B208-1A8D1391BBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5653DA-B94A-4ACD-994F-053FA004DD85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5653DA-B94A-4ACD-994F-053FA004DD85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5653DA-B94A-4ACD-994F-053FA004DD85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5653DA-B94A-4ACD-994F-053FA004DD85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1830B5FE-3FF9-4665-B93D-3F975800E144} = {2E7358D3-B176-4A91-9A4B-8705624A0AF5}
+		{7C8A420A-F764-4D2F-9303-D6E7D2C375CA} = {2E7358D3-B176-4A91-9A4B-8705624A0AF5}
+		{60BB64D2-BEE2-437D-9A63-A1234B4FD716} = {C3A1D72A-D3FA-4FDA-B240-BE6D97E861E7}
+		{6A5653DA-B94A-4ACD-994F-053FA004DD85} = {55B8865D-51AF-461E-A74F-6501111B2DC2}
+	EndGlobalSection
+EndGlobal

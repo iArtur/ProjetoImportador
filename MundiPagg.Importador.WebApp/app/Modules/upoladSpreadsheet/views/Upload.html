@@ -1,0 +1,12 @@
+﻿<form method="post" ng-submit="upload()" role="form">
+    <img src="Content/logo-mundi.png" class="logo">
+    <h2>Importador</h2>
+    <p style="white-space: pre-line">
+        Importador de dados MundiPagg
+    </p>
+    <input class=" text-box single-line" data-val="true" data-val-required="Merchant key Required." ng-model="text" id="merchantKey" name="merchantKey"  placeholder="Merchant Key" type="text" value="" />
+    <input type="file" file-model="myFile" />
+    <input type="submit"  value="Upload" id="upload">
+    <span us-spinner="{radius:30, width:8, length: 16}" spinner-key="spinner-1"></span>
+
+</form>
